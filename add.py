@@ -28,5 +28,5 @@ def add(*a):
     print(sum)
 
 #add('gh','hh')
-*elem = tuple(input('Enter elements to be added:').split())
+*elem = input('Enter elements to be added:').split()
 add(elem)
